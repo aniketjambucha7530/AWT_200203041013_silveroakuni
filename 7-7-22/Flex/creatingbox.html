@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <style>
+
+    *{
+        box-sizing: border-box;
+    }
+    .column{
+        float: left;
+        width: 33.3%;
+        border: 1px solid black;
+        height: 667px;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: right;
+    }
+    .header{
+        text-align: center;
+        text-indent: 10%;
+        width: 100%;
+        border: 1px solid black;
+        height: 50px;
+        
+    }
+    /* .row :after{
+        content: " ";
+        display: table;
+        clear: both;
+    } */
+    </style>
+</head>
+<body>
+    <h2>three equal column</h2>
+        <div class="header" style="background-color: gray;">
+            <h2> this is my header</h2>
+
+        </div> 
+    <!-- <div class="row"> -->
+        <div class="column" style="background-color: gray;">
+            <img src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image is Loading" 
+            width="100%";height="100%"> 
+            
+
+        </div>
+
+        <div class="column" style="background-color: rgb(255, 144, 144);">
+            <img src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image is Loading" 
+            width="100%";height="100%"> 
+           
+
+        </div>
+
+        <div class="column" style="background-color: black;">
+            <img src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image is Loading" 
+            width="100%";height="100%"> 
+           
+
+        </div>
+
+
+
+    <!-- </div> -->
+</body>
+</html>
